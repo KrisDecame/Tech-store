@@ -1,0 +1,98 @@
+
+{
+    "items":[
+        {
+            "id":"1",
+            "name":"Smart Hub",
+            "price": 49.99,
+            "amount": 1,
+            "sale": false,
+            "salePrice": 49.99,
+            "saleAmount": 0,
+            "saleCaption":"",
+            "saleSymbol":"",
+            "image": "/src/assets/product-images/smart-hub.jpg"
+        },
+        {
+            "id":"2",
+            "name":"Motion Sensor",
+            "price": 24.99,
+            "amount": 1,
+            "sale": true,
+            "salePrice": 65,
+            "saleAmount": 3,
+            "saleCaption":"Buy 3 for $65",
+            "saleSymbol":"%",
+            "image": "/src/assets/product-images/motion-sensor.jpg"
+        },
+        {
+            "id":"3",
+            "name":"Wireless Camera",
+            "price": 99.99,
+            "amount": 1,
+            "sale": false,
+            "salePrice": 100,
+            "saleAmount": 0,
+            "saleCaption":"",
+            "saleSymbol":"",
+            "image": "/src/assets/product-images/wireless-camera.jpg"
+        },
+        {
+            "id":"4",
+            "name":"Smoke Sensor",
+            "price": 19.99,
+            "amount": 1,
+            "sale": true,
+            "salePrice": 35,
+            "saleAmount": 2,
+            "saleCaption":"Buy 2 for $35",
+            "saleSymbol":"%",
+            "image": "/src/assets/product-images/smoke-sensor.jpg"
+        },
+        {
+            "id":"5",
+            "name":"Water Leak Sensor",
+            "price": 14.99,
+            "amount": 1,
+            "sale": false,
+            "salePrice": 10,
+            "saleAmount": 0,
+            "saleCaption":"",
+            "saleSymbol":"",
+            "image": "/src/assets/product-images/water-leak-sensor.jpg"
+        }
+    ],
+    "cart":
+        {
+            "items":[],
+            "totalPrice": 0,
+            "promoCodes":
+                [
+                    {
+                        "name":"20%OFF",
+                        "value": 20,
+                        "type":"%",
+                        "conjuctable": false
+                    },
+                    {
+                        "name":"5%OFF",
+                        "value": 5,
+                        "type":"%",
+                        "conjuctable": true
+                    },
+                    {
+                        "name":"20EUROFF",
+                        "value": 20,
+                        "type":"cut",
+                        "conjuctable": true
+                    }
+                ],
+            "enteredPromoCodes":{
+                "conjuctable": {
+                    "percentageType":[0],
+                    "cutType":[0]
+                },
+                "nonConjuctable":[0]
+            }
+        }
+}
